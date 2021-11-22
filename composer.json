@@ -1,0 +1,34 @@
+{
+    "name": "casbin/swoole-redis-watcher",
+    "keywords": [
+        "casbin",
+        "watcher",
+        "swoole",
+        "rbac",
+        "permission",
+        "acl"
+    ],
+    "description": "Redis watcher for PHP-Casbin in swoole.",
+    "authors": [
+        {
+            "name": "TechLee",
+            "email": "techlee@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "casbin/casbin": "^3.0",
+        "ext-swoole": "^4.0",
+        "ext-redis": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CasbinWatcher\\SwooleRedis\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CasbinWatcher\\SwooleRedis\\Tests\\": "tests/"
+        }
+    }
+}
