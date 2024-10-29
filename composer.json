@@ -17,8 +17,9 @@
     ],
     "license": "Apache-2.0",
     "require": {
-        "casbin/casbin": "^3.0",
-        "ext-swoole": "^4.0",
+        "php": ">=8.0",
+        "casbin/casbin": "^4.0",
+        "ext-swoole": "^5.0",
         "ext-redis": "*"
     },
     "autoload": {
